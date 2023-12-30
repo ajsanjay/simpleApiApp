@@ -16,15 +16,18 @@ struct ListItems: View {
             NavigationView {
                 List(viewModel.apptizers) { apptizer in
                     ApptizerListCell(apptizer: apptizer)
+//                        .listRowSeparator(.hidden)
+                        .listRowSeparatorTint(.red)
                         .onTapGesture {
                             viewModel.selectedApptizer = apptizer
                             viewModel.isShowingDetail = true
                         }
                 }
                 .navigationTitle("📋 Available Items")
+                .listStyle(.plain)
                 .disabled(viewModel.isShowingDetail)
-                .padding(.leading, -20)
-                .padding(.trailing, -20)
+//                .padding(.leading, -20)
+//                .padding(.trailing, -20)
             }
             .onAppear() {
                 viewModel.getApptizers()

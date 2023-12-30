@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ApptizerDetail: View {
     
+    @EnvironmentObject var order: OrdersModel
+    
     let apptizer: Apptizer
     @Binding var isShowingDetail: Bool
     
@@ -33,7 +35,8 @@ struct ApptizerDetail: View {
             }
             Spacer()
             Button {
-                print("Tapped")
+                order.add(apptizer)
+                isShowingDetail = false
             } label: {
                 CartButton(titele: "$ \(apptizer.price, specifier: "%.2f") - Add to order")
             }
@@ -67,7 +70,7 @@ struct NutritionInfoView: View {
             Text(title)
                 .font(.caption)
                 .fontWeight(.bold)
-            Text("value")
+            Text("\(value)")
                 .foregroundColor(.secondary)
                 .fontWeight(.semibold)
                 .italic()

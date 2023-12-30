@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct APIcallApp: App {
+    
+    var order = OrdersModel()
+    
     var body: some Scene {
         WindowGroup {
-            DashbordTab()
+            DashbordTab().environmentObject(order)
         }
     }
 }

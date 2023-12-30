@@ -8,23 +8,18 @@
 import SwiftUI
 
 struct DashbordTab: View {
+    
+    @EnvironmentObject var order: OrdersModel
+    
     var body: some View {
         TabView {
             ListItems()
-                .tabItem {
-                    Image(systemName: "house")
-                    Text("Home")
-                }
+                .tabItem { Label("Home", systemImage: "house.fill") }
             Profile()
-                .tabItem {
-                    Image(systemName: "person.fill")
-                    Text("Profile")
-                }
+                .tabItem { Label("Profile", systemImage: "person.fill") }
             Orders()
-                .tabItem {
-                    Image(systemName: "bag.fill")
-                    Text("Orders")
-                }
+                .tabItem { Label("Orders", systemImage: "bag.fill") }
+                .badge(order.items.count)
         }
         .accentColor(Color("PrimaryColour"))
         .edgesIgnoringSafeArea(.all)
@@ -32,6 +27,3 @@ struct DashbordTab: View {
     }
 }
 
-#Preview {
-    DashbordTab()
-}
