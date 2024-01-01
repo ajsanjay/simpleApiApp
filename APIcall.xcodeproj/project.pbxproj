@@ -39,6 +39,7 @@
 		1808D1F22B3E1A0300B3177B /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1F12B3E1A0300B3177B /* UserModel.swift */; };
 		1808D1F52B409AD200B3177B /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1F42B409AD200B3177B /* EmptyState.swift */; };
 		1808D1F92B40AF7500B3177B /* OrdersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1F82B40AF7500B3177B /* OrdersModel.swift */; };
+		1808D1FB2B415EF400B3177B /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1FA2B415EF400B3177B /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		1808D1F12B3E1A0300B3177B /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		1808D1F42B409AD200B3177B /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		1808D1F82B40AF7500B3177B /* OrdersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersModel.swift; sourceTree = "<group>"; };
+		1808D1FA2B415EF400B3177B /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 				1808D1D62B3CC08A00B3177B /* Alerts.swift */,
 				1808D1DA2B3CD03800B3177B /* RemoteImage.swift */,
 				1808D1D82B3CC64E00B3177B /* ActivityIndicator.swift */,
+				1808D1FA2B415EF400B3177B /* CustomModifiers.swift */,
 			);
 			path = UIKitComponents;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				1808D1EB2B3E01A600B3177B /* ProfileViewModel.swift in Sources */,
 				1808D1B52B3C3ACA00B3177B /* Apptizer.swift in Sources */,
 				1808D1D52B3CBEA600B3177B /* ApptizerListViewModel.swift in Sources */,
+				1808D1FB2B415EF400B3177B /* CustomModifiers.swift in Sources */,
 				1808D1CB2B3CB83A00B3177B /* Constants.swift in Sources */,
 				1808D1A02B3AAEB100B3177B /* APIcallApp.swift in Sources */,
 				1808D1C22B3CB53500B3177B /* RequestHandler+Extension.swift in Sources */,
