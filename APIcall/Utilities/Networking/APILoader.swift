@@ -5,7 +5,7 @@
 //  Created by jay sabeen on 28/12/23.
 //
 
-import Foundation
+import SwiftUI
 
 struct APILoader: ResponseHandler {
     static let shared = APILoader()

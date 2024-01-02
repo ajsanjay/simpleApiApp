@@ -17,7 +17,9 @@ struct GetApptizerAPI {
             if let _ = error {
                 completion(nil, error)
             } else {
-                completion(model, nil)
+                DispatchQueue.main.async {
+                    completion(model, nil)
+                }
             }
         }
     }

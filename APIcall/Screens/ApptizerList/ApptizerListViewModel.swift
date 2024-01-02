@@ -5,9 +5,9 @@
 //  Created by jay sabeen on 28/12/23.
 //
 
-import Foundation
+import SwiftUI
 
-final class ApptizerListViewModel: ObservableObject {
+@MainActor final class ApptizerListViewModel: ObservableObject {
     
     @Published var apptizers: [Apptizer] = []
     @Published var alertItem: AlertItem?
@@ -26,9 +26,11 @@ final class ApptizerListViewModel: ObservableObject {
                 return
             }
             guard let listValues = listResp else { return }
+//                await MainActor.run {
             DispatchQueue.main.async {
                 weakSelf.apptizers = listValues.request
             }
+//                }
         })
     }
     

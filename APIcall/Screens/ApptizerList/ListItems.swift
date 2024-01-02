@@ -28,6 +28,9 @@ struct ListItems: View {
                 .disabled(viewModel.isShowingDetail)
 //                .padding(.leading, -20)
 //                .padding(.trailing, -20)
+//                .task {
+//                    viewModel.getApptizers()
+//                }
             }
             .onAppear() {
                 viewModel.getApptizers()

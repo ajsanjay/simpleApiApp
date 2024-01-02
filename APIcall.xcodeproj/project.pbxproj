@@ -144,12 +144,12 @@
 			children = (
 				1808D1CC2B3CBA5E00B3177B /* ApptizerList */,
 				1808D1B92B3CB53500B3177B /* APIEnvironment.swift */,
+				1808D1BF2B3CB53500B3177B /* APIPath.swift */,
 				1808D1BD2B3CB53500B3177B /* APIHandler.swift */,
 				1808D1BC2B3CB53500B3177B /* MultipartFormDataRequest.swift */,
 				1808D1BB2B3CB53500B3177B /* RequestHandler+Extension.swift */,
 				1808D1BE2B3CB53500B3177B /* ResponseHandler+Extension.swift */,
 				1808D1BA2B3CB53500B3177B /* APILoader.swift */,
-				1808D1BF2B3CB53500B3177B /* APIPath.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
