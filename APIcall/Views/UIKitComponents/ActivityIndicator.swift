@@ -11,7 +11,7 @@ struct loadingView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> UIActivityIndicatorView {
         let activityIndicator = UIActivityIndicatorView(style: .large)
-        activityIndicator.color = UIColor(Color("PrimaryColour"))
+        activityIndicator.color = UIColor(.brandPrimary)
         activityIndicator.startAnimating()
         return activityIndicator
     }

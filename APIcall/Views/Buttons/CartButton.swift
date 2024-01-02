@@ -15,7 +15,7 @@ struct CartButton: View {
             .fontWeight(.semibold)
             .frame(width: 260, height: 50)
             .foregroundColor(.white)
-            .background(Color("PrimaryColour"))
+            .background(.primaryColour)
             .cornerRadius(10)
     }
 }

@@ -40,6 +40,7 @@
 		1808D1F52B409AD200B3177B /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1F42B409AD200B3177B /* EmptyState.swift */; };
 		1808D1F92B40AF7500B3177B /* OrdersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1F82B40AF7500B3177B /* OrdersModel.swift */; };
 		1808D1FB2B415EF400B3177B /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1FA2B415EF400B3177B /* CustomModifiers.swift */; };
+		1808D1FD2B44040600B3177B /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1FC2B44040600B3177B /* Color+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		1808D1F42B409AD200B3177B /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 		1808D1F82B40AF7500B3177B /* OrdersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersModel.swift; sourceTree = "<group>"; };
 		1808D1FA2B415EF400B3177B /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		1808D1FC2B44040600B3177B /* Color+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +263,7 @@
 		1808D1EC2B3E03B200B3177B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1808D1FC2B44040600B3177B /* Color+Ext.swift */,
 				1808D1ED2B3E0DC200B3177B /* String+Extension.swift */,
 			);
 			path = Extension;
@@ -349,6 +352,7 @@
 				1808D1D22B3CBAF900B3177B /* GetApptizerAPI.swift in Sources */,
 				1808D1C12B3CB53500B3177B /* APILoader.swift in Sources */,
 				1808D1E42B3CE48100B3177B /* ApptizerDetail.swift in Sources */,
+				1808D1FD2B44040600B3177B /* Color+Ext.swift in Sources */,
 				1808D1D92B3CC64E00B3177B /* ActivityIndicator.swift in Sources */,
 				1808D1C42B3CB53500B3177B /* APIHandler.swift in Sources */,
 				1808D1B02B3AD74B00B3177B /* Profile.swift in Sources */,

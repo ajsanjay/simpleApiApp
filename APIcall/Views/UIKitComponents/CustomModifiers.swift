@@ -12,7 +12,7 @@ struct StandardButtonStyle: ViewModifier {
     func body(content: Content) -> some View {
         content
             .buttonStyle(.bordered)
-            .tint(Color("PrimaryColour"))
+            .tint(.brandPrimary)
             .controlSize(.large)
     }
     

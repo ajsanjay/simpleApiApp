@@ -21,7 +21,7 @@ struct DashbordTab: View {
                 .tabItem { Label("Orders", systemImage: "bag.fill") }
                 .badge(order.items.count)
         }
-        .accentColor(Color("PrimaryColour"))
+        .accentColor(.brandPrimary)
         .edgesIgnoringSafeArea(.all)
         
     }
