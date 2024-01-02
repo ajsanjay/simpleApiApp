@@ -41,6 +41,7 @@
 		1808D1F92B40AF7500B3177B /* OrdersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1F82B40AF7500B3177B /* OrdersModel.swift */; };
 		1808D1FB2B415EF400B3177B /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1FA2B415EF400B3177B /* CustomModifiers.swift */; };
 		1808D1FD2B44040600B3177B /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D1FC2B44040600B3177B /* Color+Ext.swift */; };
+		1808D2022B4458C700B3177B /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1808D2012B4458C700B3177B /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		1808D1F82B40AF7500B3177B /* OrdersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersModel.swift; sourceTree = "<group>"; };
 		1808D1FA2B415EF400B3177B /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		1808D1FC2B44040600B3177B /* Color+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		1808D2012B4458C700B3177B /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +267,7 @@
 			children = (
 				1808D1FC2B44040600B3177B /* Color+Ext.swift */,
 				1808D1ED2B3E0DC200B3177B /* String+Extension.swift */,
+				1808D2012B4458C700B3177B /* Date+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				1808D1E72B3DF72800B3177B /* CartButton.swift in Sources */,
 				1808D1EE2B3E0DC200B3177B /* String+Extension.swift in Sources */,
 				1808D1F92B40AF7500B3177B /* OrdersModel.swift in Sources */,
+				1808D2022B4458C700B3177B /* Date+Extension.swift in Sources */,
 				1808D1D02B3CBA9500B3177B /* GetApptizersRequest.swift in Sources */,
 				1808D1E92B3DF83800B3177B /* XcloseButton.swift in Sources */,
 				1808D1F22B3E1A0300B3177B /* UserModel.swift in Sources */,

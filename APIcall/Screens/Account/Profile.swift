@@ -38,7 +38,10 @@ struct Profile: View {
                         .focused($focusedTextfield, equals: .eMail)
                         .onSubmit { focusedTextfield = nil }
                         .submitLabel(.return)
-                    DatePicker("Birthday", selection: $viewModel.user.birthDay, displayedComponents: .date)
+                    DatePicker("Birthday", 
+                               selection: $viewModel.user.birthDay,
+                               in: Date().oneHundredTenYrsAgo...Date().eighteenYearsAgo,
+                               displayedComponents: .date)
                     Button {
                         viewModel.saveChanges()
                     } label: {
