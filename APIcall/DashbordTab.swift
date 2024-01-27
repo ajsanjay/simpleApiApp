@@ -23,7 +23,6 @@ struct DashbordTab: View {
         }
         .accentColor(.brandPrimary)
         .edgesIgnoringSafeArea(.all)
-        
     }
 }
 
